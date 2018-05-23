@@ -4,9 +4,8 @@
 <script type="text/javascript">
 	    function mytime(){
         var a = new Date();
-        var b = a.toLocaleTimeString();
-        var c = a.toLocaleDateString();
-        document.getElementById("time1").innerHTML = c;
+        var c = a.getDate();
+        document.getElementById("time1").innerHTML = c*4;
         }
     setInterval(function() {mytime()},1000);
 function w_alert()
