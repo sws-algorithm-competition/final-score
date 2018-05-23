@@ -2,6 +2,13 @@
 <html>
 	<head>
 <script type="text/javascript">
+	    function mytime(){
+        var a = new Date();
+        var b = a.toLocaleTimeString();
+        var c = a.toLocaleDateString();
+        document.getElementById("time1").innerHTML = c;
+        }
+    setInterval(function() {mytime()},1000);
 function w_alert()
   {
 	  var para=document.createElement("strong");
@@ -33,15 +40,7 @@ element.appendChild(para);
 	<button onclick="w_alert()">submit your code(提交你的代码)</button>
 	<div id="div1">
 	<p>已经有<p id="time1"></p>人向3022269126@qq.com/softwareshare@qq.com发送了代码。</p>
-<script>
-    function mytime(){
-        var a = new Date();
-        var b = a.toLocaleTimeString();
-        var c = a.toLocaleDateString();
-        document.getElementById("time1").innerHTML = c;
-        }
-    setInterval(function() {mytime()},1000);
-</script>
+
 
 	</body>
 </html>
