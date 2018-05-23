@@ -1,2 +1,2 @@
-# helloworld
-Let's try editing a simple HTML document
+# SWS-Algorithm-Competition
+
