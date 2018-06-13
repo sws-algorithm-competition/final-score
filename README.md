@@ -1,2 +1,2 @@
-# SWS-Algorithm-Competition
+# SWS-Algorithm-Competition-Final-score-chinese
 
