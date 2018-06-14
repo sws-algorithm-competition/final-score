@@ -2,15 +2,13 @@
  <body>
   <script>
 	 function a(){
-	   var e=document.getElementsByName("sws").value;
-		 e="<button onclick="en()">English</button><div/><button onclick="ch()">Chinese</button>"
+	   	 document.getElementsByName("sws").value="<button onclick="en()">English</button><div/><button onclick="ch()">Chinese</button>";
 	 }
 	 function en(){
-	   document.getElementsByName("sws").value="<button onclick="a()">English</button>";
-		 document.getElementsByName("f").value="<h1>SWS ALGORITHM COMPETITION FINAL SCORE</h1>";
+	   	document.getElementsByName("sws").value="<button onclick="a()">English</button>";
+		document.getElementsByName("f").value="<h1>SWS ALGORITHM COMPETITION FINAL SCORE</h1>";
 	 }
 	</script>
   <div id="f"><h1>SWS ALGORITHM COMPETITION比赛结果</h1></div><div id="sws"><button onclick="a()">Chinese</button></div>
-	<>
  </body>
 </html>
