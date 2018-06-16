@@ -2,20 +2,14 @@
  <body>
   <script>
 	 function a(){
-	   	 document.getElementsByName("sws").value='<button onclick="en()">English</button><div/><button onclick="ch()">Chinese</button>';
-	 }
-	 function en(){
-	   	document.getElementsByName("sws").value='<button onclick="a()">English</button>';
-		document.getElementsByName("f").value='<h1>SWS ALGORITHM COMPETITION FINAL SCORE</h1>';
-		document.getElementsByName("down").value='<a href="err">VIDEO OF SWS ALGORITHM COMPETITION FINAL SCORE(NOT OPENED)</a>';
-	 }
-	 function ch(){
-	   	document.getElementsByName("sws").value='<button onclick="a()">Chinese</button>';
-		document.getElementsByName("f").value='<h1>SWS ALGORITHM COMPETITION比赛结果</h1>';
-		document.getElementsByName("down").value='<a href="颁奖0001-0250.wmv">VIDEO OF SWS ALGORITHM COMPETITION比赛结果</a>';
+	   	 var c=prompt("Enterpassword","");
+		 if(c==="232532"){
+		   location.href="en.html";
+		 }
+		 alert("error!");
 	 }
  </script>
-  <div id="f"><h1>SWS ALGORITHM COMPETITION比赛结果</h1></div><div id="sws"><a href="en.html"><button>Chinese</button></div></a>
+  <div id="f"><h1>SWS ALGORITHM COMPETITION比赛结果</h1></div><div id="sws"><button onclick="a()">Chinese</button></div>
   <video src="China.mp4" controls="controls"></video>
  </body>
 </html>
